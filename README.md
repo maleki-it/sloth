@@ -1,6 +1,12 @@
-# sloth
-Docker Compose for sloth
+# a simple docker compsoe for sloth
 
 
-#just chmod 777 for rule dir
-#docekr compose up
+### Steps:-
+
+- [x] Step 1 — install docker and docker compose 
+- [x] Step 2 — git clone https://github.com/maleki-it/sloth
+- [x] Step 3 — go to project dir.
+- [x] Step 4 — chmod 777 rules.
+- [x] Step 5 — put your manifest.yml in manifest dir
+- [x] Step 6 — docker compose up
+
