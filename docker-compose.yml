@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  sloth:
+    image: ghcr.io/slok/sloth:latest
+    container_name: sloth1
+    volumes:
+      #- ./config:/config
+      - ./manifests:/manifests
+      - ./rules:/rules
+    command: ["generate", "--disable-alerts", "-i", "/manifests/", "-o", "/rules"]
+
+
